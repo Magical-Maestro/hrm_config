@@ -8,6 +8,6 @@ spring:
         url: jdbc:mysql://localhost:3306/hrm_manage
         username: root
         password: 666666
-  mybatis-plus:
-    mapper-locations: classpath:cn/wq/hrm/mapper/*Mapper.xml
-    type-aliases-package: cn.wq.hrm.domain,cn.wq.hrm.query
+mybatis-plus:
+  mapper-locations: classpath:cn/wq/hrm/mapper/*Mapper.xml
+  type-aliases-package: cn.wq.hrm.domain,cn.wq.hrm.query
